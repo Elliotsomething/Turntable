@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAC5D62178FE3E900513DEE /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC5D61178FE3E900513DEE /* start.png */; };
+		FAAC5D64178FE3EE00513DEE /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC5D63178FE3EE00513DEE /* stop.png */; };
+		FAAC5D66178FE3F400513DEE /* turntable.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC5D65178FE3F400513DEE /* turntable.png */; };
+		FAAC5D68178FE3FB00513DEE /* metalbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC5D67178FE3FB00513DEE /* metalbackground.png */; };
+		FAAC5D6A178FE40500513DEE /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC5D69178FE40500513DEE /* pin.png */; };
+		FABB34D6178E4DAA0029A088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB34D5178E4DAA0029A088 /* UIKit.framework */; };
+		FABB34D8178E4DAA0029A088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB34D7178E4DAA0029A088 /* Foundation.framework */; };
+		FABB34DA178E4DAA0029A088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB34D9178E4DAA0029A088 /* CoreGraphics.framework */; };
+		FABB34E0178E4DAA0029A088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABB34DE178E4DAA0029A088 /* InfoPlist.strings */; };
+		FABB34E2178E4DAA0029A088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABB34E1178E4DAA0029A088 /* main.m */; };
+		FABB34E6178E4DAA0029A088 /* viewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABB34E5178E4DAA0029A088 /* viewAppDelegate.m */; };
+		FABB34E8178E4DAA0029A088 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FABB34E7178E4DAA0029A088 /* Default.png */; };
+		FABB34EA178E4DAA0029A088 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FABB34E9178E4DAA0029A088 /* Default@2x.png */; };
+		FABB34EC178E4DAA0029A088 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FABB34EB178E4DAA0029A088 /* Default-568h@2x.png */; };
+		FABB34EF178E4DAA0029A088 /* viewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABB34EE178E4DAA0029A088 /* viewViewController.m */; };
+		FABB34F2178E4DAA0029A088 /* viewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABB34F0178E4DAA0029A088 /* viewViewController.xib */; };
+		FABB34F9178E4DBF0029A088 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB34F8178E4DBF0029A088 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAAC5D61178FE3E900513DEE /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		FAAC5D63178FE3EE00513DEE /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		FAAC5D65178FE3F400513DEE /* turntable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turntable.png; sourceTree = "<group>"; };
+		FAAC5D67178FE3FB00513DEE /* metalbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metalbackground.png; sourceTree = "<group>"; };
+		FAAC5D69178FE40500513DEE /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		FABB34D2178E4DAA0029A088 /* donghua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donghua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABB34D5178E4DAA0029A088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FABB34D7178E4DAA0029A088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FABB34D9178E4DAA0029A088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FABB34DD178E4DAA0029A088 /* donghua-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "donghua-Info.plist"; sourceTree = "<group>"; };
+		FABB34DF178E4DAA0029A088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABB34E1178E4DAA0029A088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABB34E3178E4DAA0029A088 /* donghua-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "donghua-Prefix.pch"; sourceTree = "<group>"; };
+		FABB34E4178E4DAA0029A088 /* viewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewAppDelegate.h; sourceTree = "<group>"; };
+		FABB34E5178E4DAA0029A088 /* viewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewAppDelegate.m; sourceTree = "<group>"; };
+		FABB34E7178E4DAA0029A088 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FABB34E9178E4DAA0029A088 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FABB34EB178E4DAA0029A088 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FABB34ED178E4DAA0029A088 /* viewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewViewController.h; sourceTree = "<group>"; };
+		FABB34EE178E4DAA0029A088 /* viewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewViewController.m; sourceTree = "<group>"; };
+		FABB34F1178E4DAA0029A088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/viewViewController.xib; sourceTree = "<group>"; };
+		FABB34F8178E4DBF0029A088 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABB34CF178E4DAA0029A088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB34F9178E4DBF0029A088 /* QuartzCore.framework in Frameworks */,
+				FABB34D6178E4DAA0029A088 /* UIKit.framework in Frameworks */,
+				FABB34D8178E4DAA0029A088 /* Foundation.framework in Frameworks */,
+				FABB34DA178E4DAA0029A088 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABB34C9178E4DA90029A088 = {
+			isa = PBXGroup;
+			children = (
+				FABB34DB178E4DAA0029A088 /* donghua */,
+				FABB34D4178E4DAA0029A088 /* Frameworks */,
+				FABB34D3178E4DAA0029A088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABB34D3178E4DAA0029A088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABB34D2178E4DAA0029A088 /* donghua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABB34D4178E4DAA0029A088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABB34F8178E4DBF0029A088 /* QuartzCore.framework */,
+				FABB34D5178E4DAA0029A088 /* UIKit.framework */,
+				FABB34D7178E4DAA0029A088 /* Foundation.framework */,
+				FABB34D9178E4DAA0029A088 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABB34DB178E4DAA0029A088 /* donghua */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC5D69178FE40500513DEE /* pin.png */,
+				FAAC5D67178FE3FB00513DEE /* metalbackground.png */,
+				FAAC5D65178FE3F400513DEE /* turntable.png */,
+				FAAC5D63178FE3EE00513DEE /* stop.png */,
+				FAAC5D61178FE3E900513DEE /* start.png */,
+				FABB34E4178E4DAA0029A088 /* viewAppDelegate.h */,
+				FABB34E5178E4DAA0029A088 /* viewAppDelegate.m */,
+				FABB34ED178E4DAA0029A088 /* viewViewController.h */,
+				FABB34EE178E4DAA0029A088 /* viewViewController.m */,
+				FABB34F0178E4DAA0029A088 /* viewViewController.xib */,
+				FABB34DC178E4DAA0029A088 /* Supporting Files */,
+			);
+			path = donghua;
+			sourceTree = "<group>";
+		};
+		FABB34DC178E4DAA0029A088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABB34DD178E4DAA0029A088 /* donghua-Info.plist */,
+				FABB34DE178E4DAA0029A088 /* InfoPlist.strings */,
+				FABB34E1178E4DAA0029A088 /* main.m */,
+				FABB34E3178E4DAA0029A088 /* donghua-Prefix.pch */,
+				FABB34E7178E4DAA0029A088 /* Default.png */,
+				FABB34E9178E4DAA0029A088 /* Default@2x.png */,
+				FABB34EB178E4DAA0029A088 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABB34D1178E4DAA0029A088 /* donghua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABB34F5178E4DAA0029A088 /* Build configuration list for PBXNativeTarget "donghua" */;
+			buildPhases = (
+				FABB34CE178E4DAA0029A088 /* Sources */,
+				FABB34CF178E4DAA0029A088 /* Frameworks */,
+				FABB34D0178E4DAA0029A088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = donghua;
+			productName = donghua;
+			productReference = FABB34D2178E4DAA0029A088 /* donghua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABB34CA178E4DA90029A088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = view;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "mac book";
+			};
+			buildConfigurationList = FABB34CD178E4DA90029A088 /* Build configuration list for PBXProject "donghua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FABB34C9178E4DA90029A088;
+			productRefGroup = FABB34D3178E4DAA0029A088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABB34D1178E4DAA0029A088 /* donghua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABB34D0178E4DAA0029A088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB34E0178E4DAA0029A088 /* InfoPlist.strings in Resources */,
+				FABB34E8178E4DAA0029A088 /* Default.png in Resources */,
+				FABB34EA178E4DAA0029A088 /* Default@2x.png in Resources */,
+				FABB34EC178E4DAA0029A088 /* Default-568h@2x.png in Resources */,
+				FABB34F2178E4DAA0029A088 /* viewViewController.xib in Resources */,
+				FAAC5D62178FE3E900513DEE /* start.png in Resources */,
+				FAAC5D64178FE3EE00513DEE /* stop.png in Resources */,
+				FAAC5D66178FE3F400513DEE /* turntable.png in Resources */,
+				FAAC5D68178FE3FB00513DEE /* metalbackground.png in Resources */,
+				FAAC5D6A178FE40500513DEE /* pin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABB34CE178E4DAA0029A088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB34E2178E4DAA0029A088 /* main.m in Sources */,
+				FABB34E6178E4DAA0029A088 /* viewAppDelegate.m in Sources */,
+				FABB34EF178E4DAA0029A088 /* viewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FABB34DE178E4DAA0029A088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB34DF178E4DAA0029A088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FABB34F0178E4DAA0029A088 /* viewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB34F1178E4DAA0029A088 /* en */,
+			);
+			name = viewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABB34F3178E4DAA0029A088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FABB34F4178E4DAA0029A088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABB34F6178E4DAA0029A088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "donghua/donghua-Prefix.pch";
+				INFOPLIST_FILE = "donghua/donghua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FABB34F7178E4DAA0029A088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "donghua/donghua-Prefix.pch";
+				INFOPLIST_FILE = "donghua/donghua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABB34CD178E4DA90029A088 /* Build configuration list for PBXProject "donghua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABB34F3178E4DAA0029A088 /* Debug */,
+				FABB34F4178E4DAA0029A088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABB34F5178E4DAA0029A088 /* Build configuration list for PBXNativeTarget "donghua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABB34F6178E4DAA0029A088 /* Debug */,
+				FABB34F7178E4DAA0029A088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABB34CA178E4DA90029A088 /* Project object */;
+}
